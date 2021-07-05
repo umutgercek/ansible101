@@ -1,0 +1,6 @@
+# ping playbook
+---
+  - hosts: webservers:bastions
+    tasks:
+      - name: ping all servers
+        action: ping

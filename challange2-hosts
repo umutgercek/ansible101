@@ -1,0 +1,10 @@
+# challenge2-hosts
+
+[server_gr1]
+S1 ansible_host=1.1.1.1
+
+[server_gr2]
+S2 ansible_host=2.2.2.2
+
+[local]
+CTRL ansible_connection=local
